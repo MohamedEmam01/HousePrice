@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>House Price Prediction</title>
+<style>
+  /* Style the input form */
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  input[type="text"] {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #ccc;
+    font-size: 16px;
+    width: 200px;
+  }
+  input[type="submit"] {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  /* Style the output message */
+  .output {
+    margin: 50px auto;
+    max-width: 800px;
+    padding:20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+<form action="/predict" method="post">
+  <input type="text" name="bedrooms" placeholder="Number of bedrooms">
+  <input type="text" name="bathrooms" placeholder="Number of bathrooms">
+  <input type="text" name="sqft_living" placeholder="Square footage of living space">
+  <input type="text" name="floors" placeholder="Number of floors">
+  <input type="text" name="view" placeholder="View">
+  <input type="text" name="grade" placeholder="Grade">
+  <input type="text" name="sqft_above" placeholder="Square footage above ground">
+  <input type="text" name="sqft_basement" placeholder="Square footage below ground">
+  <input type="text" name="lat" placeholder="Latitude">
+  <input type="text" name="sqft_lot15" placeholder="Square footage of lot">
+  <input type="text" name="population" placeholder="Population">
+  <input type="submit" value="Predict">
+</form>
+
+  <div class="output">The predicted house price is: {{ output }}</div>
