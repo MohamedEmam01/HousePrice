@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-House Price Appreciation Project
+    <title> House Price Appreciation Project </title>
 </head>
 <body>
     <h1>House Price Appreciation Project</h1>
@@ -16,9 +16,9 @@ House Price Appreciation Project
 
     <h2>Web Application</h2>
     <p>To run the web application, ensure you have Flask installed. If not, you can install it using:</p>
-    <pre><code>pip install flask</code></pre>
+    <code>pip install flask</code>
     <p>Then, execute the <code>app.py</code> script using:</p>
-    <pre><code>python app.py</code></pre>
+    <code>python app.py</code>
     <p>The application will start running locally, and you can access it through your web browser at <a href="http://localhost:5000/">http://localhost:5000/</a>. The main page (<code>index.html</code>) will prompt you to enter the necessary data for prediction.</p>
 
     <h2>Data Preprocessing</h2>
