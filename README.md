@@ -2,6 +2,31 @@
 <html>
 <head>
     <title>House Price Appreciation Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        code {
+            background-color: #f5f5f5;
+            padding: 2px;
+        }
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
     <h1>House Price Appreciation Project</h1>
