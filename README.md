@@ -1,35 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>House Price Appreciation Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #555;
-        }
-        code {
-            background-color: #f5f5f5;
-            padding: 2px;
-        }
-        ul {
-            list-style: disc;
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 5px;
-        }
-    </style>
+House Price Appreciation Project
 </head>
 <body>
     <h1>House Price Appreciation Project</h1>
