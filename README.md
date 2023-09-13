@@ -22,7 +22,7 @@ The application will start running locally, and you can access it through your w
 
 ## Data Preprocessing
 
-Before training the machine learning model, the data goes through a preprocessing phase to handle missing values, outliers, and feature engineering. The Jupyter Notebook `final_revision.ipynb` provides a detailed explanation of these steps.
+Before training the machine learning model, the data goes through a preprocessing phase to handle missing values, outliers, and feature engineering. The Jupyter Notebook `House Price.ipynb` provides a detailed explanation of these steps.
 
 ## Machine Learning Algorithm
 
